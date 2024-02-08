@@ -5,3 +5,4 @@ activate/
 data/
 *.ipynb
 Dockerfile
+__pycache__
