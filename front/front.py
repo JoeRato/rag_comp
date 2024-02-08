@@ -29,7 +29,7 @@ if st.button('Envoie ta question !'):
         # Update the progress bar with each iteration.
         latest_iteration.text(f'Iteration {i+1}')
         bar.progress(i + 1)
-        time.sleep(0.2)
+        time.sleep(0.5)
     
     "💡 Je crois que j'ai une réponse !"
     url = 'https://comprag-cshrkcigva-ew.a.run.app'
