@@ -12,7 +12,7 @@ st.markdown("""👋🏼 Salut, je suis Claude ton assistant Compliance. J'ai lu 
             """)
 
 txt = st.text_area('Ta question de compliance :', '''
-    Quels sont les principaux élements à prendre en compte dans une classification des risques ? 
+    Quels sont les principaux éléments à prendre en compte dans une classification des risques ? 
     ''')
 st.write('Mots:', len(txt.split(' ')))
 
@@ -27,7 +27,7 @@ if st.button('Envoie ta question !'):
 
     for i in range(100):
         # Update the progress bar with each iteration.
-        latest_iteration.text(f'Iteration {i+1}')
+        latest_iteration.text(f'Progression: {i+1}%')
         bar.progress(i + 1)
         time.sleep(0.5)
     
